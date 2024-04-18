@@ -6,6 +6,7 @@ export abstract class ContaBancaria {
   }
 
   abstract sacar(valor: number): void;
+  abstract getTipo(): string;
 
   get getSaldo(): number {
     return this.saldo;
