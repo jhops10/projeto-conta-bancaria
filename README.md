@@ -1,27 +1,19 @@
-# ProjetoContaBancaria
+# Projeto Conta Bancária - POO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
-## Development server
+![](https://i.ibb.co/Nj1h65J/imagem-conta1.png)
+![](https://i.ibb.co/MgdPQSs/imagem-conta2.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Descrição
+Estudo voltado para a aplicação dos pilares da Programação Orientada a Objetos (POO).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
+ * Angular
+ * TypeScript
+ * Bootstrap
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Como Rodar
+* Clone o Repositório
+* Use o comando __'ng serve'__
