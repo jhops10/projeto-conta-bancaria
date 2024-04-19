@@ -2,12 +2,13 @@
   <div class="row justify-content-center">
     <div class="col-md-6">
       <div class="card">
-        <h5 class="card-header bg-primary text-white">Cadastro de Conta</h5>
+        <h5 class="card-header bg-dark text-white">Cadastro de Conta</h5>
         <div class="card-body">
           <form>
             <div class="form-group">
               <label for="nome">Nome do titular:</label>
               <input
+                [(ngModel)]="titular"
                 id="nome"
                 placeholder="Nome do titular"
                 name="nome"
@@ -16,14 +17,21 @@
             </div>
             <div class="form-group">
               <label for="tipoConta">Tipo de conta:</label>
-              <select id="tipoConta" name="tipoConta" class="form-control">
+              <select
+                id="tipoConta"
+                name="tipoConta"
+                class="form-control"
+                [(ngModel)]="tipoConta"
+              >
                 <option value="">Selecione o tipo de conta</option>
                 <option value="corrente">Conta Corrente</option>
                 <option value="salario">Conta Salario</option>
                 <option value="poupanca">Conta Poupança</option>
               </select>
             </div>
-            <button class="btn btn-primary">Criar Conta</button>
+            <button class="btn btn-secondary" (click)="criarConta()">
+              Criar Conta
+            </button>
           </form>
         </div>
       </div>
